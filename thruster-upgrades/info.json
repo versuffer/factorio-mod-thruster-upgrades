@@ -1,6 +1,6 @@
 {
     "name": "thruster-upgrades",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "Thruster Upgrades",
     "author": "versuffer",
     "factorio_version": "2.0",
@@ -9,5 +9,5 @@
         "space-age >= 2.0"
 ],
     "space_travel_required": true,
-    "description": "F"
+    "description": "This mod adds two balanced higher tier thrusters with enhanced efficiency, larger fuel storages and significantly more thrust (M2 for mid-game and M3 for late-game). Thruster upgrades can be unlocked before Aquilo."
   }

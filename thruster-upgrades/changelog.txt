@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 12. 04. 2026
+  Fixes / Refactoring:
+    - Fixed info.json mod description
+    - Removed space-platform-thruster as a redundant technological dependency for Thruster MK2 research
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 12. 04. 2026
   Major Features:

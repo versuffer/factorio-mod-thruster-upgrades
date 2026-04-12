@@ -13,7 +13,6 @@ local thruster_mk2_technology = {
       }
     },
     prerequisites = {
-        "space-platform-thruster",
         "efficiency-module-3",
         "productivity-module-3",
         "metallurgic-science-pack",
