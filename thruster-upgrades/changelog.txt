@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 12. 04. 2026
+  Major Features:
+    - Initial release
+    - Added Thruster MK2
+    - Added Thruster MK3
