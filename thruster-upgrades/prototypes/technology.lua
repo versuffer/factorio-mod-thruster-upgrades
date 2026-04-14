@@ -13,8 +13,8 @@ local thruster_mk2_technology = {
       }
     },
     prerequisites = {
-        "efficiency-module-3",
-        "productivity-module-3",
+        "efficiency-module-2",
+        "productivity-module-2",
         "metallurgic-science-pack",
     },
     unit =
@@ -51,6 +51,8 @@ local thruster_mk3_technology = {
     },
     prerequisites = {
         "thruster-mk2",
+        "efficiency-module-3",
+        "productivity-module-3",
         "electromagnetic-science-pack"
     },
     unit =

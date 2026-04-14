@@ -10,8 +10,8 @@ local thruster_mk2_recipe = {
     {type = "item", name = "processing-unit", amount = 15},
     {type = "item", name = "electric-engine-unit", amount = 7},
     {type = "item", name = "tungsten-plate", amount = 15},
-    {type = "item", name = "efficiency-module-3", amount = 5},
-    {type = "item", name = "productivity-module-3", amount = 5},
+    {type = "item", name = "efficiency-module-2", amount = 5},
+    {type = "item", name = "productivity-module-2", amount = 5},
   },
   results = {{type = "item", name = "thruster-mk2", amount = 1}}
 }
@@ -28,9 +28,9 @@ local thruster_mk3_recipe = {
     {type = "item", name = "processing-unit", amount = 20},
     {type = "item", name = "electric-engine-unit", amount = 10},
     {type = "item", name = "tungsten-plate", amount = 30},
-    {type = "item", name = "efficiency-module-3", amount = 10},
-    {type = "item", name = "productivity-module-3", amount = 10},
-    {type = "item", name = "holmium-plate", amount = 5},
+    {type = "item", name = "efficiency-module-3", amount = 5},
+    {type = "item", name = "productivity-module-3", amount = 5},
+    {type = "item", name = "supercapacitor", amount = 5},
   },
   results = {{type = "item", name = "thruster-mk3", amount = 1}}
 }
