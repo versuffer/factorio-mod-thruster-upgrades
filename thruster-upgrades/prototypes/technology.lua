@@ -16,6 +16,7 @@ local thruster_mk2_technology = {
         "efficiency-module-2",
         "productivity-module-2",
         "metallurgic-science-pack",
+        "agricultural-science-pack",
     },
     unit =
     {
