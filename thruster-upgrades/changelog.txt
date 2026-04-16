@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.0
+Date: 17. 04. 2026
+  Graphics:
+    - Thruster MK2 entity: custom graphics ADDED
+    - Thruster MK3 entity: custom graphics ADDED
+---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: 16. 04. 2026
+  Settings:
+    - "Enable thruster fluid box symmetry" setting ADDED
+---------------------------------------------------------------------------------------------------
 Version: 2.2.1
 Date: 16. 04. 2026
   Graphics:

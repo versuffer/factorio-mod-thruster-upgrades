@@ -1,3 +1,12 @@
+-- Common
+
+local enable_thruster_fluid_box_symmetry_setting = {
+    type = "bool-setting",
+    name = "thruster-upgrades-enable-thruster-fluid-box-symmetry",
+    setting_type = "startup",
+    default_value = false
+}
+
 -- Thruster MK2 settings
 
 local thruster_mk2_full_storage_efficiency_percent_setting = {
@@ -58,6 +67,7 @@ local thruster_mk3_storage_volume_units_setting = {
 
 data.extend(
     {
+        enable_thruster_fluid_box_symmetry_setting,
         thruster_mk2_full_storage_efficiency_percent_setting,
         thruster_mk2_full_storage_fluid_usage_percent_setting,
         thruster_mk2_storage_volume_units_setting,
