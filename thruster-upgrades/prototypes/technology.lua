@@ -20,7 +20,7 @@ local thruster_mk2_technology = {
     },
     unit =
     {
-      count = 5000,
+      count = 1500,
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -58,7 +58,7 @@ local thruster_mk3_technology = {
     },
     unit =
     {
-      count = 15000,
+      count = 2500,
       ingredients =
       {
         {"automation-science-pack", 1},
