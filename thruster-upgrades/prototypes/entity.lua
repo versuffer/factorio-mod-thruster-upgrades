@@ -2,6 +2,7 @@
 
 local thruster_mk2_corpse = table.deepcopy(data.raw["corpse"]["thruster-remnants"])
 thruster_mk2_corpse.name = "thruster-mk2-remnants"
+thruster_mk2_corpse.icon = "__thruster-upgrades__/graphics/icons/thruster-mk2.png"
 thruster_mk2_corpse.animation = util.sprite_load(
     "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-remnants",
     {
@@ -14,6 +15,7 @@ thruster_mk2_corpse.animation = util.sprite_load(
 
 local thruster_mk2 = table.deepcopy(data.raw["thruster"]["thruster"])
 thruster_mk2.name = "thruster-mk2"
+thruster_mk2.icon = "__thruster-upgrades__/graphics/icons/thruster-mk2.png"
 thruster_mk2.corpse = "thruster-mk2-remnants"
 thruster_mk2.max_health = data.raw["thruster"]["thruster"].max_health * 1.4
 thruster_mk2.minable.result = "thruster-mk2"
@@ -46,6 +48,7 @@ thruster_mk2.integration_patch = util.sprite_load(
 
 local thruster_mk3_corpse = table.deepcopy(data.raw["corpse"]["thruster-remnants"])
 thruster_mk3_corpse.name = "thruster-mk3-remnants"
+thruster_mk3_corpse.icon = "__thruster-upgrades__/graphics/icons/thruster-mk3.png"
 thruster_mk3_corpse.animation = util.sprite_load(
     "__thruster-upgrades__/graphics/entity/thruster-mk3/thruster-remnants",
     {
@@ -58,6 +61,7 @@ thruster_mk3_corpse.animation = util.sprite_load(
 
 local thruster_mk3 = table.deepcopy(data.raw["thruster"]["thruster"])
 thruster_mk3.name = "thruster-mk3"
+thruster_mk3.icon = "__thruster-upgrades__/graphics/icons/thruster-mk3.png"
 thruster_mk3.corpse = "thruster-mk3-remnants"
 thruster_mk3.max_health = data.raw["thruster"]["thruster"].max_health * 1.8
 thruster_mk3.minable.result = "thruster-mk3"

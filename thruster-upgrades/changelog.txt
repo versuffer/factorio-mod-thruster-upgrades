@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.1
+Date: 17. 04. 2026
+  Graphics:
+    - Thruster MK2 entity: icon ADDED
+    - Thruster MK2 corpse entity: icon ADDED
+    - Thruster MK3 entity: icon ADDED
+    - Thruster MK3 corpse entity: icon ADDED
+---------------------------------------------------------------------------------------------------
 Version: 2.4.0
 Date: 17. 04. 2026
   Graphics:
