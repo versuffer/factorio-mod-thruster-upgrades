@@ -7,6 +7,22 @@ local enable_thruster_fluid_box_symmetry_setting = {
     default_value = false
 }
 
+local enable_thruster_fuel_oxidizer_fuel_value_adjustment = {
+    type = "bool-setting",
+    name = "thruster-upgrades-enable-thruster-fuel-oxidizer-fuel-value-adjustment",
+    setting_type = "startup",
+    default_value = false
+}
+
+local thruster_fuel_oxidizer_fuel_value_setting = {
+    type = "int-setting",
+    name = "thruster-upgrades-thruster-fuel-oxidizer-fuel-value-kj",
+    setting_type = "startup",
+    minimum_value = 50,
+    maximum_value = 100000,
+    default_value = 50
+}
+
 -- Thruster MK2 settings
 
 local thruster_mk2_full_storage_efficiency_percent_setting = {
@@ -68,6 +84,9 @@ local thruster_mk3_storage_volume_units_setting = {
 data.extend(
     {
         enable_thruster_fluid_box_symmetry_setting,
+        enable_thruster_fuel_oxidizer_fuel_value_adjustment,
+        thruster_fuel_oxidizer_fuel_value_setting,
+
         thruster_mk2_full_storage_efficiency_percent_setting,
         thruster_mk2_full_storage_fluid_usage_percent_setting,
         thruster_mk2_storage_volume_units_setting,

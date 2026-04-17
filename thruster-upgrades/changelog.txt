@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.1.0
+Date: 18. 04. 2026
+  Settings / Features:
+    - Another approach to make more thrust ADDED
+    - "Enable thruster fuel/oxidizer fuel value adjustment" setting ADDED
+    - "Thruster fuel/oxidizer fuel value, kJ" setting ADDED
+---------------------------------------------------------------------------------------------------
 Version: 3.0.0
 Date: 17. 04. 2026
   Rebalancing:

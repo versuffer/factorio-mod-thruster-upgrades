@@ -30,6 +30,14 @@ local modified_oxidizer_fluid_box = {
     }
 }
 
+-- Thruster fuel/oxidizer fuel value adjustment
+
+if settings.startup["thruster-upgrades-enable-thruster-fuel-oxidizer-fuel-value-adjustment"].value == true then
+    local adjusted_fuel_value = settings.startup["thruster-upgrades-thruster-fuel-oxidizer-fuel-value-kj"].value .. "kJ"
+    data.raw["fluid"]["thruster-fuel"].fuel_value = adjusted_fuel_value
+    data.raw["fluid"]["thruster-oxidizer"].fuel_value = adjusted_fuel_value
+end
+
 -- Original thruster modifications
 data.raw["thruster"]["thruster"].next_upgrade = "thruster-mk2"
 
