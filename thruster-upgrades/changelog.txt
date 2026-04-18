@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 18. 04. 2026
+  Major changes / Rebalancing:
+    - Thruster MK2 research: prerequisite technology "Agricaltural science pack" REPLACED with "Carbon fiber"
+    - Thruster MK2 recipe: item "Carbon fiber" x 10 ADDED
+    - Thruster MK3 recipe: item "Carbon fiber" x 20 ADDED
+---------------------------------------------------------------------------------------------------
 Version: 3.1.1
 Date: 18. 04. 2026
   Documentation:
