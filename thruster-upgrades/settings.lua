@@ -7,7 +7,7 @@ local enable_thruster_fluid_box_symmetry_setting = {
     default_value = false
 }
 
-local enable_thruster_fuel_oxidizer_fuel_value_adjustment = {
+local enable_thruster_fuel_oxidizer_fuel_value_adjustment_setting = {
     type = "bool-setting",
     name = "thruster-upgrades-enable-thruster-fuel-oxidizer-fuel-value-adjustment",
     setting_type = "startup",
@@ -21,6 +21,13 @@ local thruster_fuel_oxidizer_fuel_value_setting = {
     minimum_value = 50,
     maximum_value = 100000,
     default_value = 50
+}
+
+local enable_nested_recipes_setting = {
+    type = "bool-setting",
+    name = "thruster-upgrades-enable-nested-recipes",
+    setting_type = "startup",
+    default_value = false
 }
 
 -- Thruster MK2 settings
@@ -84,8 +91,9 @@ local thruster_mk3_storage_volume_units_setting = {
 data.extend(
     {
         enable_thruster_fluid_box_symmetry_setting,
-        enable_thruster_fuel_oxidizer_fuel_value_adjustment,
+        enable_thruster_fuel_oxidizer_fuel_value_adjustment_setting,
         thruster_fuel_oxidizer_fuel_value_setting,
+        enable_nested_recipes_setting,
 
         thruster_mk2_full_storage_efficiency_percent_setting,
         thruster_mk2_full_storage_fluid_usage_percent_setting,
