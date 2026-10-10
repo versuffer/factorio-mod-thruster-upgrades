@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 5.0.1
+Date: 10. 10. 2026
+  Bugfixes:
+    - Thruster MK2/MK3: default light graphics restored when alternative graphics setting is disabled
+---------------------------------------------------------------------------------------------------
 Version: 5.0.0
 Date: 10. 10. 2026
   Graphics:
