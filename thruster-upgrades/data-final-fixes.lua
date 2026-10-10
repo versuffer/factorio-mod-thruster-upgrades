@@ -97,3 +97,30 @@ if settings.startup["thruster-upgrades-enable-thruster-fluid-box-symmetry"].valu
     data.raw["thruster"]["thruster"].fuel_fluid_box.pipe_connections = modified_fuel_fluid_box
     data.raw["thruster"]["thruster"].oxidizer_fluid_box.pipe_connections = modified_oxidizer_fluid_box
 end
+
+-- Alternative flame graphics
+
+if settings.startup["thruster-upgrades-enable-alternative-flame-graphics"].value == true then
+    data.raw["thruster"]["thruster-mk2"].graphics_set.flame_effect.filename = "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-flame-alternative.png"
+    data.raw["thruster"]["thruster-mk3"].graphics_set.flame_effect.filename = "__thruster-upgrades__/graphics/entity/thruster-mk3/thruster-flame-alternative.png"
+
+    for _, working_visualisation in pairs(data.raw["thruster"]["thruster-mk2"].graphics_set.working_visualisations) do
+        if working_visualisation.fadeout == true then
+            working_visualisation.animation.filenames =
+            {
+                "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-light-alternative-1.png",
+                "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-light-alternative-2.png"
+            }
+        end
+    end
+
+    for _, working_visualisation in pairs(data.raw["thruster"]["thruster-mk3"].graphics_set.working_visualisations) do
+        if working_visualisation.fadeout == true then
+            working_visualisation.animation.filenames =
+            {
+                "__thruster-upgrades__/graphics/entity/thruster-mk3/thruster-light-alternative-1.png",
+                "__thruster-upgrades__/graphics/entity/thruster-mk3/thruster-light-alternative-2.png"
+            }
+        end
+    end
+end

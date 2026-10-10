@@ -55,6 +55,16 @@ thruster_mk2.graphics_set.animation = util.sprite_load(
     }
 )
 
+for _, working_visualisation in pairs(thruster_mk2.graphics_set.working_visualisations) do
+    if working_visualisation.fadeout == true then
+        working_visualisation.animation.filenames =
+        {
+            "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-light-1.png",
+            "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-light-2.png"
+        }
+    end
+end
+
 thruster_mk2.integration_patch_render_layer = "floor"
 thruster_mk2.integration_patch = util.sprite_load(
     "__thruster-upgrades__/graphics/entity/thruster-mk2/thruster-bckg",
@@ -120,6 +130,16 @@ thruster_mk3.graphics_set.animation = util.sprite_load(
         shift = {0,3}
     }
 )
+
+for _, working_visualisation in pairs(thruster_mk3.graphics_set.working_visualisations) do
+    if working_visualisation.fadeout == true then
+        working_visualisation.animation.filenames =
+        {
+            "__thruster-upgrades__/graphics/entity/thruster-mk3/thruster-light-1.png",
+            "__thruster-upgrades__/graphics/entity/thruster-mk3/thruster-light-2.png"
+        }
+    end
+end
 
 thruster_mk3.integration_patch_render_layer = "floor"
 thruster_mk3.integration_patch = util.sprite_load(

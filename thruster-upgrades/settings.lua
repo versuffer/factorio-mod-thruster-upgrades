@@ -30,6 +30,13 @@ local enable_nested_recipes_setting = {
     default_value = false
 }
 
+local enable_alternative_flame_graphics_setting = {
+    type = "bool-setting",
+    name = "thruster-upgrades-enable-alternative-flame-graphics",
+    setting_type = "startup",
+    default_value = true
+}
+
 -- Thruster MK2 settings
 
 local thruster_mk2_full_storage_efficiency_percent_setting = {
@@ -94,6 +101,7 @@ data.extend(
         enable_thruster_fuel_oxidizer_fuel_value_adjustment_setting,
         thruster_fuel_oxidizer_fuel_value_setting,
         enable_nested_recipes_setting,
+        enable_alternative_flame_graphics_setting,
 
         thruster_mk2_full_storage_efficiency_percent_setting,
         thruster_mk2_full_storage_fluid_usage_percent_setting,

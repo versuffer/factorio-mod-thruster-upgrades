@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 5.0.0
+Date: 10. 10. 2026
+  Graphics:
+    - Alternative flame and light graphics ADDED for Thruster MK2 and Thruster MK3
+  Settings:
+    - "Enable alternative flame graphics" setting ADDED
+---------------------------------------------------------------------------------------------------
 Version: 4.1.1
 Date: 05. 08. 2026
   Bugfixes:
